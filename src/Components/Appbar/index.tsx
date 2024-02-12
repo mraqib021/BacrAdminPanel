@@ -55,17 +55,17 @@ export default function CustomDrawer(props: Props) {
       id: 1,
     },
     {
-      link: "About",
-      title: "About",
-      icon: "Icon",
-      comp: <About />,
-      id: 2,
-    },
-    {
       link: "square",
       title: "Sqaure Parts",
       icon: "Icon",
       comp: <SquareParts />,
+      id: 2,
+    },
+    {
+      link: "About",
+      title: "About",
+      icon: "Icon",
+      comp: <About />,
       id: 3,
     },
   ];
