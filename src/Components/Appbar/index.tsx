@@ -15,8 +15,9 @@ import Typography from "@mui/material/Typography";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import logo from "./../../assets/logo.gif";
 import Products from "../../screens/Admin/pages/product/products";
-import About from "../../screens/About";
-import SquareParts from "../../screens/Admin/pages/square";
+import About from "../../screens/Login";
+import SquareParts from "../../screens/Admin/pages/squareparts";
+import Resume from "../../screens/Admin/pages/resume";
 
 const drawerWidth = 240;
 
@@ -62,11 +63,18 @@ export default function CustomDrawer(props: Props) {
       id: 2,
     },
     {
+      link: "Cv",
+      title: "Cv / Resume",
+      icon: "Icon",
+      comp: <Resume />,
+      id: 3,
+    },
+    {
       link: "About",
       title: "About",
       icon: "Icon",
       comp: <About />,
-      id: 3,
+      id: 4,
     },
   ];
   // console.log(sidebardata)
